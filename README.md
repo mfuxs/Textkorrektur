@@ -21,17 +21,15 @@ pip install pynput pyperclip playsound openai
 Zusätzlich benötigen Sie eine OpenAI API-Schlüssel, den Sie in den Code einfügen müssen.
 
 ## Installation
-OpenAI API-Schlüssel einrichten
+OpenAI API-Schlüssel einrichten. https://platform.openai.com/api-keys
 
 Sie müssen Ihren OpenAI API-Schlüssel in die Variable api_key im Skript einfügen. Falls der Schlüssel nicht gesetzt ist, wird eine Fehlermeldung ausgegeben.
+
 
 ## Signaldatei vorbereiten
 
 Stellen Sie sicher, dass eine Audiodatei namens signal.mp3 im gleichen Verzeichnis wie das Skript vorhanden ist. Diese Datei wird abgespielt, sobald die Textkorrektur abgeschlossen ist.
 
-##Zwischenablage-Zugriff auf macOS
-
-Dieses Skript verwendet AppleScript, um den ausgewählten Text auf macOS in die Zwischenablage zu kopieren. Wenn Sie ein anderes Betriebssystem verwenden, müssen Sie möglicherweise diesen Teil des Codes anpassen.
 
 ## Ausführung
 Um das Skript auszuführen, starten Sie es einfach mit Python:
