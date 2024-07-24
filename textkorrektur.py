@@ -23,7 +23,7 @@ def correct_text(text):
  
     try:
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo", #Schnellere Antworten 
+            model="gpt-4o-mini", #Schnellere Antworten -> Update von GPT 3.5 -> GPT-4o-mini
             #model="gpt-4o", #bessere Antworten 
             messages=[
                 {"role": "system", "content": "Du korrigiert alle deutschen Texte, wobei die Erhaltung des ursprünglichen Stils und Tons im Vordergrund steht. Es wird Wert darauf gelegt, den natürlichen Fluss und die ursprüngliche Formulierung beizubehalten und nur die für die grammatikalische Korrektheit notwendigen Änderungen vorzunehmen.  Du vermeidest umfangreiche Änderungen, die die ursprüngliche Absicht oder den Ton des Textes verändern könnten. Die Antworten sind direkt, ohne Erklärungen oder Ausschmückungen, und konzentrieren sich ausschließlich auf die Wiedergabe des korrigierten Textes."},
