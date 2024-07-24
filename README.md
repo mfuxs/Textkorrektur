@@ -1,6 +1,6 @@
 # Textkorrektur mit OpenAI
 
-Dieses Skript verwendet OpenAI GPT-3.5 Turbo zur Korrektur von deutschem Text, der in die Zwischenablage kopiert wurde. Es nutzt die `pynput`-Bibliothek zur Erkennung von Hotkeys, `pyperclip` zum Arbeiten mit der Zwischenablage und `playsound` zum Abspielen eines Signals, wenn die Textkorrektur abgeschlossen ist.
+Dieses Skript verwendet OpenAI GPT-4o mini zur Korrektur von deutschem Text, der in die Zwischenablage kopiert wurde. Es nutzt die `pynput`-Bibliothek zur Erkennung von Hotkeys, `pyperclip` zum Arbeiten mit der Zwischenablage und `playsound` zum Abspielen eines Signals, wenn die Textkorrektur abgeschlossen ist.
 
 ## Voraussetzungen
 
