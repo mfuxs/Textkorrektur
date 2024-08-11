@@ -1,13 +1,13 @@
 # Textkorrektur mit OpenAI
 
-Dieses Skript verwendet OpenAI GPT-4o mini zur Korrektur von deutschem Text, der in die Zwischenablage kopiert wurde. Es nutzt die `pynput`-Bibliothek zur Erkennung von Hotkeys, `pyperclip` zum Arbeiten mit der Zwischenablage und `playsound` zum Abspielen eines Signals, wenn die Textkorrektur abgeschlossen ist.
+Dieses Skript verwendet OpenAI GPT-4o mini zur Korrektur von deutschem Text, der in die Zwischenablage kopiert wurde. Es nutzt die `keyboard`-Bibliothek zur Erkennung von Hotkeys, `pyperclip` zum Arbeiten mit der Zwischenablage und `playsound` zum Abspielen eines Signals, wenn die Textkorrektur abgeschlossen ist.
 
 ## Voraussetzungen
 
 
 Stellen Sie sicher, dass die folgenden Python-Pakete installiert sind:
 
-- `pynput`
+- `keyboard`
 - `pyperclip`
 - `playsound`
 - `openai`
@@ -15,7 +15,7 @@ Stellen Sie sicher, dass die folgenden Python-Pakete installiert sind:
 Diese Pakete können Sie mit dem folgenden Befehl installieren:
 
 ```bash
-pip install pynput pyperclip playsound openai
+pip install keyboard pyperclip playsound openai
 ```
 
 Zusätzlich benötigen Sie eine OpenAI API-Schlüssel, den Sie in den Code einfügen müssen.
@@ -52,5 +52,6 @@ Falls Fehler auftreten, überprüfen Sie bitte die folgenden Punkte:
 Ist der OpenAI API-Schlüssel korrekt gesetzt?
 Ist die signal.mp3-Datei im richtigen Verzeichnis vorhanden?
 Sind alle benötigten Python-Pakete installiert?
-##Lizenz
+
+## Lizenz
 Dieses Projekt steht unter der MIT-Lizenz. Siehe die LICENSE-Datei für weitere Informationen.
